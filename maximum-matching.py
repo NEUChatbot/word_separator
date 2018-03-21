@@ -1,7 +1,7 @@
 import json
 import queue
 
-class Separator(object):
+class MatchingSeparator(object):
     def __init__(self):
         self.dictionary = [{}]
         self.max_word_length = 0
@@ -96,7 +96,7 @@ class Separator(object):
                 result.append(e)
         return '/'.join(result)
 
-a = Separator()
+a = MatchingSeparator()
 for c in a.separate("双向最大匹配法是将正向最大匹配法得到的分词结果和逆向最大匹配法的到的结果进行比较，从而决定正确的分词方法。"
                     "研究表明，中文中90.0％左右的句子，正向最大匹配法和逆向最大匹配法完全重合且正确，只有大概9.0"
                     "％的句子两种切分方法得到的结果不一样，但其中必有一个是正确的（歧义检测成功），只有不到1.0"
