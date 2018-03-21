@@ -1,0 +1,2 @@
+model_checkpoint_path: "embeddings"
+all_model_checkpoint_paths: "embeddings"
