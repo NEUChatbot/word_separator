@@ -10,12 +10,12 @@ Everything works normally with following packages.
 + pandas 0.22.0
 
 
-# Useage
+# Usage
 ## To use Bi-LSTM separator
 1. import lstm
 2. separator = lstm.BiLSTMWordSeparator()
 3. result = separator.separate(str)
 ## To use maximum matching separator
 1. import maximum-matching
-2. separator = lstm.MatchingSeparator()
+2. separator = maximum-matching.MatchingSeparator()
 3. result = separator.separate(str)
